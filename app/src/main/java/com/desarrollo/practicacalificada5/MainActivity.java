@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 if(isNumeric(num1) && isNumeric(num2)){
                     textResultado.setText(String.valueOf(result));
                 }else {
-                    Toast.makeText(MainActivity.this, "Ingrese valores numericos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Ingrese valores numericos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
