@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PracticaCalificada5</string>
+    <string name="txt_titulo">Servicio de reproductor de musica</string>
+    <string name="btn_lanzar">Iniciar</string>
+    <string name="btn_detener">Detener</string>
+    <string name="label_numer1">Numero 1</string>
+    <string name="label_numer2">Numero 2</string>
+</resources>
