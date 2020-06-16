@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String num1 = number1.getText().toString();
-                String num2 = number1.getText().toString();
+                String num2 = number2.getText().toString();
                 numberone = Integer.parseInt(num1);
                 numbertwo = Integer.parseInt(num2);
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String num1 = number1.getText().toString();
-                String num2 = number1.getText().toString();
+                String num2 = number2.getText().toString();
                 numberone = Integer.parseInt(num1);
                 numbertwo = Integer.parseInt(num2);
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String num1 = number1.getText().toString();
-                String num2 = number1.getText().toString();
+                String num2 = number2.getText().toString();
                 numberone = Integer.parseInt(num1);
                 numbertwo = Integer.parseInt(num2);
 
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String num1 = number1.getText().toString();
-                String num2 = number1.getText().toString();
+                String num2 = number2.getText().toString();
                 numberone = Integer.parseInt(num1);
                 numbertwo = Integer.parseInt(num2);
 
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String num1 = number1.getText().toString();
-                String num2 = number1.getText().toString();
+                String num2 = number2.getText().toString();
 
                 if(isNumeric(num1) && isNumeric(num2)){
                     textResultado.setText(String.valueOf(result));
